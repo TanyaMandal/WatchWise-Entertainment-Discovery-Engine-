@@ -14,18 +14,18 @@ A movie and TV show recommendation app built with Python and Streamlit. Instead 
    git clone [https://github.com/TanyaMandal/WatchWise-Entertainment-Discovery-Engine-.git](https://github.com/TanyaMandal/WatchWise-Entertainment-Discovery-Engine-.git)
    cd WatchWise-Entertainment-Discovery-Engine-
 
-Create a virtual environment and install dependencies
-
-Bash
+## Create a virtual environment and install dependencies
+```bash
 python -m venv venv
 venv\Scripts\activate
 pip install -r requirements.txt
+```
 
-Add your API key
+## Add your API key
 Create a .env file in the root folder and add your key:
-
+```bash
 YOUR_API_KEY_NAME=your_key_here
-
-Run the app
-
-streamlit run streamlit_ui.py
+```
+## Run the app
+```bash
+streamlit run streamlit_ui.py ```
